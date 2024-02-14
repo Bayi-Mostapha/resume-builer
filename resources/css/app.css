@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.input {
+    @apply w-full my-1 py-1 px-3 block border border-gray-200 rounded-lg outline-none;
+}
+
+.info-slot{
+    @apply w-full py-1 px-3 my-2 border border-blue-500 rounded-md;
+}
